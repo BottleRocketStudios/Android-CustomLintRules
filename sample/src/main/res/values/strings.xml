@@ -1,0 +1,6 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <string name="app_name">CustomLintRules</string>
+    <!-- All supported ascii characters (32-127): !"#${'$'}%&'()*+,-./0123456789:;<=>?@ABCDEFGHIJKLMNOPQRSTUVWXYZ[\]^_`abcdefghijklmnopqrstuvwxyz{|}~ -->
+    <!-- malicious api_key actual value is 456123 even though it can be displayed visually as 123456 in some editors/file viewers -->
+    <string name="api_key">⁧⁦123⁩⁦456⁩⁩</string>
+</resources>
