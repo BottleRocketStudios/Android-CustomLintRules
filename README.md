@@ -22,3 +22,8 @@ A fatal lint error will be reported if any unicode (or unsupported ascii) charac
 
 ## Additional Links
 * https://www.w3schools.com/charsets/ref_html_ascii.asp - ascii ranges
+
+## Build
+* You can generate a locally built aar by executing the `publishReleasePublicationToMavenLocal` Run Configuration.
+* Quickly navigate to the output by executing the `Open Local Maven Publication Folder` Run Configuration.
+* View all jitpack builds at https://jitpack.io/#BottleRocketStudios/Android-CustomLintRules
