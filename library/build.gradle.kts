@@ -51,8 +51,8 @@ afterEvaluate {
                 // Applies the component for the release build variant.
                 from(components["release"])
 
-                groupId = "com.bottlerocketstudios.customlintrules"
-                artifactId = "library"
+                groupId = "com.github.BottleRocketStudios"
+                artifactId = "Android-CustomLintRules"
                 version = "0.9"
             }
         }
