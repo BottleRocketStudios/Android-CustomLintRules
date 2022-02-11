@@ -35,7 +35,6 @@ android {
 
 /** Package the given lint rules into this AAR  */
 dependencies {
-    implementation(project(":lintRules"))
     lintPublish(project(":lintRules"))
 }
 
