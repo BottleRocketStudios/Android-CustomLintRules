@@ -12,21 +12,21 @@ A fatal lint error will be reported if any unicode (or unsupported ascii) charac
 1. Add jitpack in your root build gradle **at the end of `allprojects.repositories`**. *[Jitpack recommends](https://docs.jitpack.io/) adding to the end as Gradle will go through all repositories in order until it finds a dependency and jitpack likely accounts for a small portion of dependencies in your project*:
 
 ```kotlin
-	allprojects {
-		repositories {
-			...
-			maven(url = "https://jitpack.io")
-		}
+allprojects {
+	repositories {
+		// ...
+		maven(url = "https://jitpack.io")
 	}
+}
 ```
 
 2. Add the following to all your module build gradle files where you want to use the lint rules:
 
 ```kotlin
 dependencies {
-    ...
+    // ...
     implementation("com.github.BottleRocketStudios:Android-CustomLintRules:1.0.0")
-    ...
+    // ...
 }
 ```
 
