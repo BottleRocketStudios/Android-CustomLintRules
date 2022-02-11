@@ -77,7 +77,9 @@ dependencies {
     * Copy-paste additional values from page responses to the url path to traverse down the tree of all files managed by jitpack for your builds and view/retrieve things like log files, module files, pom files, and aars.
 
 ### jitpack development/SNAPSHOT builds
-Access development/SNAPSHOT builds by replacing the version with an arbitrary `release tag`, `commit hash`, or `branch~name-SNAPSHOT` (ex: `develop-SNAPSHOT`, `feature~abc-SNAPSHOT`). You can also browse https://jitpack.io/#BottleRocketStudios/Android-CustomLintRules to generate a dependency value from a list of all jitpack builds.
+* Access development/SNAPSHOT builds by replacing the version with an arbitrary `release tag`, `commit hash`, or `branch~name-SNAPSHOT` (ex: `develop-SNAPSHOT`, `feature~abc-SNAPSHOT`). You can also browse https://jitpack.io/#BottleRocketStudios/Android-CustomLintRules to generate a dependency value from a list of all jitpack builds.
+* When debugging, you can view artifacts that gradle downloads to your local machine (from a consumer app POV) by navigating to the following folder and viewing its contents to inspect aars, module files, and pom files:
+    * `~/.gradle/caches/modules-2/files-2.1/com.github.BottleRocketStudios/Android-CustomLintRules/`
 
 ### Local aar generation
 * You can generate a locally built aar for testing by executing the `publishReleasePublicationToMavenLocal` Run Configuration.
