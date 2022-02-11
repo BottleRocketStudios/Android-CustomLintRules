@@ -52,7 +52,7 @@ afterEvaluate {
 
                 groupId = "com.github.BottleRocketStudios"
                 artifactId = "Android-CustomLintRules"
-                version = "0.9"
+                version = "1.0.0"
             }
         }
     }
