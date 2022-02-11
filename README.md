@@ -13,10 +13,10 @@ A fatal lint error will be reported if any unicode (or unsupported ascii) charac
 
 ```kotlin
 allprojects {
-	repositories {
-		// ...
-		maven(url = "https://jitpack.io")
-	}
+    repositories {
+        // ...
+        maven(url = "https://jitpack.io")
+    }
 }
 ```
 
