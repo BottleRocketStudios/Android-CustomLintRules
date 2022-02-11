@@ -27,3 +27,5 @@ A fatal lint error will be reported if any unicode (or unsupported ascii) charac
 * You can generate a locally built aar by executing the `publishReleasePublicationToMavenLocal` Run Configuration.
 * Quickly navigate to the output by executing the `Open Local Maven Publication Folder` Run Configuration.
 * View all jitpack builds at https://jitpack.io/#BottleRocketStudios/Android-CustomLintRules
+* View root of jitpack generated data for this project at https://jitpack.io/com/github/BottleRocketStudios/Android-CustomLintRules/
+    * Copy-paste additional values from page responses to the url path to traverse down the tree of all files managed by jitpack for your builds and view/retrieve things like log files, module files, pom files, and aars.
