@@ -49,14 +49,22 @@ dependencies {
 ### Sample `TrojanXml ` Lint Failure
 ![a](docs/images/sample_trojan_xml_detector_lint_result_ss.png)
 
-## Details of the attack
+## Links
+### Details of the attack
 * https://www.theregister.com/2021/11/01/trojan_source_language_reversal_unicode/
 * https://nvd.nist.gov/vuln/detail/CVE-2021-42574
 * https://trojansource.codes/
 * https://github.com/nickboucher/trojan-source
 
-## Additional Links
+### Ascii reference
 * https://www.w3schools.com/charsets/ref_html_ascii.asp - ascii ranges
+
+### Building custom lint rules
+* https://proandroiddev.com/implementing-your-first-android-lint-rule-6e572383b292 - Also see linked talks and repositories at the end of the blog.
+* https://proandroiddev.com/testing-your-first-android-lint-rule-bb78c1f2d2bd - 
+    * https://github.com/fabiocarballo/lint-sample - sample repo for above blog posts
+* https://github.com/googlesamples/android-custom-lint-rules - official custom lint rule sample repo
+    * https://googlesamples.github.io/android-custom-lint-rules/api-guide.html - official custom lint rule development api guide
 
 ## Build
 ### Project structure
