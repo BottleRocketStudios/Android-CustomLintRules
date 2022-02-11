@@ -72,6 +72,7 @@ object Config {
         object Kotlin {
             const val ANDROID = "android"
         }
+        const val MAVEN_PUBLISH = "maven-publish"
     }
 
     // What each version represents - https://medium.com/androiddevelopers/picking-your-compilesdkversion-minsdkversion-targetsdkversion-a098a0341ebd
